@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<title>Карточка товара</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="Карточка_стили.css" type="text/css">
+	<link rel="stylesheet" href="Карточка_стили-t.css" type="text/css">
+</head>
+
+<body>
+	<header>
+		<div class="header">
+			<a href=""><img alt="" id="logo" src="Resources/logo.png"></a>
+			<div class="main_nav">
+
+				<div class="dropdown"><a class="shadow-text" href="">Листогибы</a><i class="-hover"></i>
+					<ul class="dropdown-list">
+						<li><a href="">Категории листогибов</a></li>
+						<li><a href="">Новые листогибы GERMES</a></li>
+						<li><a href="">Б/y листогибы</a></li>
+					</ul>
+				</div>
+				<div class="dropdown"><a href="" class="shadow-text">Запчасти для листогибов</a><i class="-hover"></i>
+					<ul class="dropdown-list">
+						<li><a href="">Запчасти для листогибов</a></li>
+						<li><a href="">Запчасти для листогибов Tapco</a></li>
+						<li><a href="">Запчасти для листогибов Van Mark</a></li>
+					</ul>
+				</div>
+				<div class="dropdown"><a href="" class="shadow-text">О компании</a><i class="-hover"></i>
+					<ul class="dropdown-list">
+						<li><a href="">О нас</a></li>
+						<li><a href="">Доставка</a></li>
+						<li><a href="">Контакты</a></li>
+					</ul>
+				</div>
+				<p>8(800)505-90-95</p>
+				<img alt="" id="img2" src="Resources/tg.png">
+				<input type=button value="Заказть звонок">
+			</div>
+			<div class="menu_burg" onclick="bopen();">
+				<span></span>
+			</div>
+		</div>
+	</header>
+	<div class="container">
+		<div class="block1">
+			<p style="color:#dba42c;"><a>Главная</a> / <a>Запчасти</a> / <a>Запчасти Тарсо</a> / Ролик режущий на нож
+				Тарсо</p>
+			<hr>
+		</div>
+	</div>
+	<div class="background">
+		<div class="container">
+
+			<div class="block2">
+				<div class="item-card">
+
+					<div class="slider1">
+						<input type="radio" name="switch1" id="btn11" checked>
+						<input type="radio" name="switch1" id="btn12">
+						<input type="radio" name="switch1" id="btn13">
+						<div class="switch">
+							<label for="btn11"></label>
+							<label for="btn12"></label>
+							<label for="btn13"></label>
+						</div>
+						<div class="slider-inner" onclick="imgC();">
+							<div class="slides">
+								<img alt="Ролик режущий на нож Tapco" id="myImg" class="item" src="Resources/item.png">
+								<img alt="Ролик режущий на нож Tapco" id="myImg" class="item" src="Resources/item.png">
+								<img alt="Ролик режущий на нож Tapco" id="myImg" class="item" src="Resources/item.png">
+							</div>
+						</div>
+						<div id="myModal" class="modal">
+							<span class="close" onclick="spanC();">×</span>
+							<div class="modal-content">
+								<div id="carousel" class="carousel">
+									<div class="arrow prev" onclick="slPrev();">‹</div>
+									<div class="gallery">
+										<ul>
+											<li><img  src="Resources/item.png"></li>
+											<li><img src="Resources/item.png"></li>
+											<li><img src="Resources/item.png"></li>
+										</ul>
+									</div>
+									<span class="arrow next" onclick="slNext();">›</span>
+								</div>
+							</div>
+							<div id="caption"></div>
+						</div>
+					</div>
+					<div>
+						<h1>Ролик режущий на нож Tapco</h1>
+						<p><span style="color:#808080;">Производитель:</span> TAPCO</p>
+						<p><span style="color:#808080;">Страна:</span> США</p>
+						<p><span style="color:#808080;">Гарантия:</span> 12 месяцев</p>
+						<p><span style="color:#808080;">Наличие:</span> <b>✓</b> В наличии</p>
+						<input type=button value="Заказать товар">
+					</div>
+				</div>
+				<div class="item-desc">
+					<span id="des" onclick="tc(1)">ОПИСАНИЕ</span>
+					<span id="har" onclick="tc(2)">ХАРАКТЕРИСТИКИ</span>
+					<p id="text">Если во время эксплуатации листогиба Tapco Max-20 вышла из строя (или сломалась)
+						какая-либо его часть, и вы не знаете куда обратиться за помощью — вы попали по адресу. Для того,
+						чтобы точно узнать стоимость замены какой-либо детали или узла вам необходимо воспользоваться
+						схемой сборки и деталировкой листогиба Tapco и определить артикульный номер нужной вам детали.
+						По артикулу вы узнаете стоимость запчасти. Практически все артикульные позиции имеются в наличии
+						у нас на складах.</p>
+				</div>
+				<div class="rec">
+					<h2>Рекомендуемые товары</h2>
+					<div class="slider2">
+						<input type="radio" name="switch2" id="btn21" checked>
+						<input type="radio" name="switch2" id="btn22">
+						<input type="radio" name="switch2" id="btn23">
+						<input type="radio" name="switch2" id="btn24">
+						<input type="radio" name="switch2" id="btn25">
+						<input type="radio" name="switch2" id="btn26">
+						<input type="radio" name="switch2" id="btn27">
+						<input type="radio" name="switch2" id="btn28">
+						<input type="radio" name="switch2" id="btn29">
+						<div class="switch">
+							<label for="btn21"></label>
+							<label for="btn22"></label>
+							<label for="btn23"></label>
+							<label for="btn24"></label>
+							<label for="btn25"></label>
+							<label for="btn26"></label>
+							<label for="btn27"></label>
+							<label for="btn28"></label>
+							<label for="btn29"></label>
+						</div>
+						<div class="slider-inner">
+							<div class="slides">
+								<table class="t1">
+									<tr>
+										<td><img alt="" src="Resources/rec1.jpeg"></td>
+										<td><img alt="" src="Resources/rec2.jpg"></td>
+										<td><img alt="" src="Resources/rec3.jpeg"></td>
+									</tr>
+
+									<tr class="str_n">
+										<td>Ролик направляющий для ножа Tapco, металлический</td>
+										<td>Роликовый нож Tapco</td>
+										<td>Корпус для роликового ножа Tapco Max Cut Off</td>
+									</tr>
+
+									<tr class="str_d">
+										<td>Ролик направляющий подходит на все модели роликовых ножей Tapco</td>
+										<td></td>
+										<td></td>
+									</tr>
+
+									<tr>
+										<td><input type=button value="Подробнее"><input type=button
+												value="Оформить заказ"></td>
+										<td><input type=button value="Подробнее"><input type=button
+												value="Оформить заказ"></td>
+										<td><input type=button value="Подробнее"><input type=button
+												value="Оформить заказ"></td>
+									</tr>
+								</table>
+								<table class="t1">
+									<tr>
+										<td><img alt="" src="Resources/rec1.jpeg"></td>
+										<td><img alt="" src="Resources/rec2.jpg"></td>
+										<td><img alt="" src="Resources/rec3.jpeg"></td>
+									</tr>
+
+									<tr class="str_n">
+										<td>Ролик направляющий для ножа Tapco, металлический</td>
+										<td>Роликовый нож Tapco</td>
+										<td>Корпус для роликового ножа Tapco Max Cut Off</td>
+									</tr>
+
+									<tr class="str_d">
+										<td>Ролик направляющий подходит на все модели роликовых ножей Tapco</td>
+										<td></td>
+										<td></td>
+									</tr>
+
+									<tr>
+										<td><input type=button value="Подробнее"><input type=button
+												value="Оформить заказ"></td>
+										<td><input type=button value="Подробнее"><input type=button
+												value="Оформить заказ"></td>
+										<td><input type=button value="Подробнее"><input type=button
+												value="Оформить заказ"></td>
+									</tr>
+								</table>
+								<table class="t1">
+									<tr>
+										<td><img alt="" src="Resources/rec1.jpeg"></td>
+										<td><img alt="" src="Resources/rec2.jpg"></td>
+										<td><img alt="" src="Resources/rec3.jpeg"></td>
+									</tr>
+
+									<tr class="str_n">
+										<td>Ролик направляющий для ножа Tapco, металлический</td>
+										<td>Роликовый нож Tapco</td>
+										<td>Корпус для роликового ножа Tapco Max Cut Off</td>
+									</tr>
+
+									<tr class="str_d">
+										<td>Ролик направляющий подходит на все модели роликовых ножей Tapco</td>
+										<td></td>
+										<td></td>
+									</tr>
+
+									<tr>
+										<td><input type=button value="Подробнее"><input type=button
+												value="Оформить заказ"></td>
+										<td><input type=button value="Подробнее"><input type=button
+												value="Оформить заказ"></td>
+										<td><input type=button value="Подробнее"><input type=button
+												value="Оформить заказ"></td>
+									</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="ft">
+			<div class="dt2">
+				<table class="t2">
+					<tr>
+						<th>Листогибы</th>
+						<th>Запчасти для листогибов</th>
+						<th>О компании</th>
+					</tr>
+					<tr>
+						<td>Новые листогибы GERMES</td>
+						<td>Запчасти для листогибов Tapco</td>
+						<td>Доставка</td>
+					</tr>
+					<tr>
+						<td>Б/y листогибы</td>
+						<td>Запчасти для листогибов Van Mark</td>
+						<td>Контакты</td>
+					</tr>
+				</table>
+			</div>
+			<div class="cont">
+				8 800 505 95 90<br>
+				<a href="" style="text-decoration:none;">prom.stan@yandex.ru</a><br>
+				<a href=""><img alt="" src="Resources/c1.png"></a><a href=""><img alt="" src="Resources/c2.png"></a><a
+					href=""><img alt="" src="Resources/c3.png"></a>
+			</div>
+		</div>
+		<div class="ft1">
+			<div class="zz1">
+				<h1>ЗАКАЗАТЬ ЗВОНОК</h1>
+				Оставьте заявку и наш специалист свяжется с Вами
+			</div>
+			<div class="zz2">
+				<span><textarea placeholder="Номер телефона"></textarea>
+					<input type="button" value="Заказать звонок"></span><br>
+				<p>Вы соглашаетесь с <a style="color:white;" href="">политикой конфиденциальности</a></p>
+
+			</div>
+		</div>
+		<div class="ft2">
+			<span id="span_1">©Все права защищены ООО "Промстан" 2022</span>
+			<span style="float:right;"><a href="">Политика конфиденциальности</a></span>
+		</div>
+	</div>
+	<script>
+		var x = window.matchMedia("(min-width: 1175px)");
+		var width=0;		
+		var count = 1;
+		var list = carousel.querySelector('ul');
+		var listElems = carousel.querySelectorAll('li');
+		var position = 0;
+		function slPrev() {
+			position += width * count;
+			position = Math.min(position, 0)
+			list.style.marginLeft = position + 'px';
+		};
+		function slNext() {						
+			position -= width * count; 
+			position = Math.max(position, -width * (listElems.length - count));
+			list.style.marginLeft = position + 'px';
+		};
+		function tc(code) {
+			if (code == 1) {
+				document.getElementById("des").style.color = "white";
+				document.getElementById("des").style.textDecoration = "underline #dba42c";
+				document.getElementById("text").innerText = "Если во время эксплуатации листогиба Tapco Max-20 вышла из строя (или сломалась) какая-либо его часть, и вы не знаете куда обратиться за помощью — вы попали по адресу. Для того, чтобы точно узнать стоимость замены какой-либо детали или узла вам необходимо воспользоваться схемой сборки и деталировкой листогиба Tapco и определить артикульный номер нужной вам детали. По артикулу вы узнаете стоимость запчасти. Практически все артикульные позиции имеются в наличии у нас на складах.";
+				document.getElementById("har").style.color = "grey";
+				document.getElementById("har").style.textDecoration = "none";
+			}
+			if (code == 2) {
+				document.getElementById("des").style.color = "grey";
+				document.getElementById("des").style.textDecoration = "none";
+				document.getElementById("text").innerText = "Характеристик нет.";
+				document.getElementById("har").style.color = "white";
+				document.getElementById("har").style.textDecoration = "underline #dba42c";
+			}
+		};
+		function bopen() {
+			const iconMenu = document.getElementsByClassName('menu_burg')[0];
+			const mainNav = document.getElementsByClassName('main_nav')[0];
+			if (Boolean(iconMenu.classList.contains('_active'))) {
+				mainNav.classList.remove('_active');
+				iconMenu.classList.remove('_active');
+			}
+			else {
+				mainNav.classList.toggle('_active');
+				iconMenu.classList.toggle('_active');
+			}
+		};
+		function drplist() {
+			document.getElementsByClassName('dropdown-list')[0].style.display = "block";
+		};
+		function imgC() {
+			if (x.matches) {
+				width=600;
+			}
+			else {
+				width=750;
+			}
+			if(document.getElementById('btn11').checked){
+				position=0;
+				list.style.marginLeft = position + 'px';
+			}
+			else if(document.getElementById('btn12').checked){
+				position=-width*1;
+				list.style.marginLeft = position + 'px';
+			}
+			else if(document.getElementById('btn13').checked){
+				position=-width*2;
+				list.style.marginLeft = position + 'px';
+			}			
+			var modal = document.getElementById('myModal');
+			var img = document.getElementById('myImg');
+			var captionText = document.getElementById("caption");
+			modal.style.display = "block";
+			captionText.innerHTML = img.alt;
+			document.body.style.overflow = "hidden";
+		};
+		function spanC() {
+			var modal = document.getElementById('myModal');
+			var span = document.getElementsByClassName("close")[0];
+			modal.style.display = "none";
+			document.body.style.overflow = "";
+		};
+	</script>
+</body>
+
+</html>
